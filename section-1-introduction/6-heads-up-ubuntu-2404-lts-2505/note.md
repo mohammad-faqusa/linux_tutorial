@@ -1,0 +1,3 @@
+## 6. Heads-up: Ubuntu 24.04 LTS / 25.05
+While the examples have initially been recorded on Ubuntu 22.04 LTS, pretty much everything works identically on Ubuntu 24.04 LTS and 25.04. In case there are any changes, rest assured, this course is being kept up to date.
+If you want to you can still download Ubuntu 22.04 LTS here ("Desktop image"):[https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)

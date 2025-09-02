@@ -56,9 +56,9 @@ def create_code_exercise(section_title, part_title):
     create_directory(part_directory_path)
 
 section_title = "section 1: introduction"
-# section_title = "coding-exercises"
+# section_title = "quizzes"
 
-part_title = "5. What are Linux Distributions?"
+part_title = "7. Installing VirtualBox"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
