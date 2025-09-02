@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "section 1: introduction"
 # section_title = "quizzes"
 
-part_title = "7. Installing VirtualBox"
+part_title = "8. Installing Ubuntu [VirtualBox]"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
