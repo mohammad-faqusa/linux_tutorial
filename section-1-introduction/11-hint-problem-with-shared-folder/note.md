@@ -1,0 +1,2 @@
+## 11. Hint: Problem with shared Folder
+If the shared Folder is not directly showing up inside the FileExplorer, you can try to check the location it is mounted at. For that, click into the topbar, type /media and hit Enter:
