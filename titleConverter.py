@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "section 1: introduction"
 # section_title = "coding-exercises"
 
-part_title = "1. intro"
+part_title = "2. Getting the Most out of this Course"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
