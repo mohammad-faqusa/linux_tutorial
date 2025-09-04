@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 5: First Steps with Linux"
 # section_title = "quizzes"
 
-part_title = "39. User Management Basics: System Accounts, Regular Users, Superusers"
+part_title = "41. Optional [Troubleshooting]: When `sudo` does not work"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
