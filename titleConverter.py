@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 4: First Steps in the Terminal"
 # section_title = "quizzes"
 
-part_title = "30. Setting up your Terminal"
+part_title = "31. Outputting Text: the Command `echo`"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
