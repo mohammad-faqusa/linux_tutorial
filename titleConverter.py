@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 5: First Steps with Linux"
 # section_title = "quizzes"
 
-part_title = "43. Updating and Installing Software in Ubuntu: apt"
+part_title = "44. Updating and Installing Software in CentOS Stream: dnf"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
