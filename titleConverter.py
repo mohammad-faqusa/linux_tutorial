@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 6: File Management (Part 1) - Organize Files & Directories"
 # section_title = "quizzes"
 
-part_title = "50. Creating Files and Directories: the Commands `touch` & `mkdir`"
+part_title = "51. Moving and Copying Files: the Commands `mv` & `cp`"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
