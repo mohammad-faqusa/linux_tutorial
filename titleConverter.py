@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 14: files on UNIX"
 # section_title = "quizzes"
 
-part_title = "144. Filesystem Hierarchy Standard (Part 4): /tmp, /usr, /var, /lost+found"
+part_title = "145. Streamlining Filesystem Structure: the Project usrmerge"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
