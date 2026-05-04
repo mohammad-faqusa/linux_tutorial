@@ -110,3 +110,54 @@ Try 'rmdir --help' for more information.
 [mohammad@localhost Desktop]$ ls 
 [mohammad@localhost Desktop]$ ls 
 ```
+
+```bash
+mohammad@ubuntu1:~$ cd Des
+bash: cd: Des: No such file or directory
+mohammad@ubuntu1:~$ cd Desktop/
+mohammad@ubuntu1:~/Desktop$ mkdir tmp-website 
+mohammad@ubuntu1:~/Desktop$ cd tmp-website/
+mohammad@ubuntu1:~/Desktop/tmp-website$ touch index.html style.css script.js
+mohammad@ubuntu1:~/Desktop/tmp-website$ mkdir styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv style.css styles/style.css 
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls 
+index.html  script.js  styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv index.html styles/ 
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls 
+script.js  styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv styles/index.html . 
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls 
+index.html  script.js  styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls styles/
+style.css
+mohammad@ubuntu1:~/Desktop/tmp-website$ mkdir scripts 
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv script
+script.js  scripts/   
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv script.js scripts/index.js 
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls scripts/
+index.js
+mohammad@ubuntu1:~/Desktop/tmp-website$ mkdir pages
+mohammad@ubuntu1:~/Desktop/tmp-website$ cd pages
+mohammad@ubuntu1:~/Desktop/tmp-website/pages$ touch page1.html 
+mohammad@ubuntu1:~/Desktop/tmp-website/pages$ cp page1.html page2.html 
+mohammad@ubuntu1:~/Desktop/tmp-website/pages$ cp page1.html page3.html 
+mohammad@ubuntu1:~/Desktop/tmp-website/pages$ mv page2.html .. 
+mohammad@ubuntu1:~/Desktop/tmp-website/pages$ cd ..
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls 
+index.html  page2.html  pages  scripts  styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ rm index.html 
+mohammad@ubuntu1:~/Desktop/tmp-website$ rm pages/* 
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls pages
+mohammad@ubuntu1:~/Desktop/tmp-website$ mv page2.html index.html 
+mohammad@ubuntu1:~/Desktop/tmp-website$ rm -d pages/
+mohammad@ubuntu1:~/Desktop/tmp-website$ ls 
+index.html  scripts  styles
+mohammad@ubuntu1:~/Desktop/tmp-website$ rm -rf . 
+rm: refusing to remove '.' or '..' directory: skipping '.'
+mohammad@ubuntu1:~/Desktop/tmp-website$ cd ..
+mohammad@ubuntu1:~/Desktop$ rm -rf tmp-website/
+mohammad@ubuntu1:~/Desktop$ ls 
+access.log  download-slow  script.sh
+mohammad@ubuntu1:~/Desktop$ ^C
+mohammad@ubuntu1:~/Desktop$ 
+```

@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = "Section 6: File Management (Part 1) - Organize Files & Directories"
+section_title = "Section 14: files on UNIX"
 # section_title = "quizzes"
 
-part_title = "56. File Name Selection by Pattern Matching: Globbing with `*`"
+part_title = "138. What is a Device?"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)

@@ -9,4 +9,5 @@
 * 
 ### file name expansion 
 * this allows to access multiple files with a single command
-* expansion happends before executing the command 
+* expansion happends before executing the command ## 56. File Name Selection by Pattern Matching: Globbing with `*`
+## 56. File Name Selection by Pattern Matching: Globbing with `*`
