@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 15: Linux User Management"
 # section_title = "quizzes"
 
-part_title = "165. Securing Directories: Setting the Sticky Bit"
+part_title = "166. Advanced File Permissions: SUID (Set User ID) and SGID (Set Group ID)"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
