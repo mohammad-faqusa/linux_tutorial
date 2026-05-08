@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = "Section 15: Linux User Management"
+section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "166. Advanced File Permissions: SUID (Set User ID) and SGID (Set Group ID)"
+part_title = "170. What are Processes?"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
