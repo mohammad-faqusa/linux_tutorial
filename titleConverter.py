@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 15: Linux User Management"
 # section_title = "quizzes"
 
-part_title = "164. Setting Default File Permissions: the Command `umask`"
+part_title = "165. Securing Directories: Setting the Sticky Bit"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
