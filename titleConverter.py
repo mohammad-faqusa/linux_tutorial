@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 15: Linux User Management"
 # section_title = "quizzes"
 
-part_title = "153. How do Groups work?"
+part_title = "154. Add and Remove Group Members with `usermod`, `adduser`, `deluser`"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
