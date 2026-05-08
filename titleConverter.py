@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 15: Linux User Management"
 # section_title = "quizzes"
 
-part_title = "162. Setting File Permissions Efficiently: `chmod` with Numerical Values"
+part_title = "163. Managing Permissions and Ownerships for Directories"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
