@@ -469,4 +469,3 @@ sudo renice -10 -p PID
 ps -l -p PID
 top
 ```
-
