@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 17: Job Control in Bash - Navigate Background and Foreground Operations"
 # section_title = "quizzes"
 
-part_title = "189. Intro"
+part_title = '190. What Jobs are and how to start your First Background Job (using `&`)'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
