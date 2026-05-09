@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "183. Sending Signals to Multiple Processes: the `killall` Command"
+part_title = "184. Process Endings: Process Reaping, Orphan & Zombie Processes"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
