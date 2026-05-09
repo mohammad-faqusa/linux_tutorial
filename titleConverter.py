@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "176. Identifying Process IDs with `pgrep` and adjusting their Priority with `renice`"
+part_title = "177. Influencing Processes with Signals"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
