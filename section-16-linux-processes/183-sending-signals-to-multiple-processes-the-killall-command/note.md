@@ -1,5 +1,4 @@
 ## 183. Sending Signals to Multiple Processes: the `killall` Command
-## 183. Sending Signals to Multiple Processes: the `killall` Command
 
 The `killall` command sends a signal to processes **by process name** instead of PID.
 
