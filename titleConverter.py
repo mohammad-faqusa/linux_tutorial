@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "174. Inspecting Context Switches: How Multitasking Works"
+part_title = "175. Controlling Process Priorities by Setting the Niceness"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
