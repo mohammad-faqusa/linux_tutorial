@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "181. Controlling Processes with the Signals SIGHUP, SIGSTOP and SIGCONT"
+part_title = "182. The `kill` Command vs the Program `/usr/bin/kill`"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
