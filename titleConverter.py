@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 16: Linux Processes"
 # section_title = "quizzes"
 
-part_title = "179. Sending Signals with the `kill` command & the Interruption Signal SIGINT"
+part_title = "180. Terminating Processes Soft and Hard: the Signals SIGTERM vs SIGKILL"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
