@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = "Section 17: Job Control in Bash - Navigate Background and Foreground Operations"
 # section_title = "quizzes"
 
-part_title = '193. Suspending and Resuming Jobs with `fg`'
+part_title = '195. Suspending Jobs with Output using stty'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
