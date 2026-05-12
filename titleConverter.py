@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 18: Package Management with `APT` & `dpkg` [Ubuntu] - Streamline Software Handling'
 # section_title = "quizzes"
 
-part_title = '199. Installing Software manually with the Debian Package Manager (dpkg)'
+part_title = '200. Installing Software manually with the Advanced Package Tool (APT)'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
