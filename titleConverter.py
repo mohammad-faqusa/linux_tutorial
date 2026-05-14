@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = 'Section 18: Package Management with `APT` & `dpkg` [Ubuntu] - Streamline Software Handling'
+section_title = 'Section 19: Package Management with `DNF` [CentOS] - Streamline Software Handling'
 # section_title = "quizzes"
 
-part_title = '211. Package Management with Snap: Dealing with Self-Contained Applications'
+part_title = '212. Intro'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
