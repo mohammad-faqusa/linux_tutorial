@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 19: Package Management with `DNF` [CentOS] - Streamline Software Handling'
 # section_title = "quizzes"
 
-part_title = '213. The Red Hat Package Manager (RPM) Format'
+part_title = '214. Installing Software manually with the DNF (Dandified Yum) Package Manager'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
