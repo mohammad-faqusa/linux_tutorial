@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = 'Section 19: Package Management with `DNF` [CentOS] - Streamline Software Handling'
+section_title = 'Section 20: The System Boot Process & Systemd - Understand the Startup Mechanisms'
 # section_title = "quizzes"
 
-part_title = '228. Extra lecture (optional): Software Flexibility with Snap on CentOS and RHEL'
+part_title = '230. The GRUB2 Bootloader: Safely Modifying Configuration for Linux System Startup'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
