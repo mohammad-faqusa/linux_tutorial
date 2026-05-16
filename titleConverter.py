@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 19: Package Management with `DNF` [CentOS] - Streamline Software Handling'
 # section_title = "quizzes"
 
-part_title = '218. How Backward Weak Dependencies Enhance Software Functionality'
+part_title = '220. Managing Package Dependencies in DNF: Preventing Unintended Removals'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
