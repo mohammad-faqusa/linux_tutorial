@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 19: Package Management with `DNF` [CentOS] - Streamline Software Handling'
 # section_title = "quizzes"
 
-part_title = '227. Taming Dependency Challenges in CentOS: Strategies for Smooth System Updates'
+part_title = '228. Extra lecture (optional): Software Flexibility with Snap on CentOS and RHEL'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
