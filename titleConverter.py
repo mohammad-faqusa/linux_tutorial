@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 20: The System Boot Process & Systemd - Understand the Startup Mechanisms'
 # section_title = "quizzes"
 
-part_title = '240. Systemd Unit Files: Structuring and Optimizing Services'
+part_title = '241. Customizing systemd Unit Files (Part 1)'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
