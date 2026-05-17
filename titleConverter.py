@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 20: The System Boot Process & Systemd - Understand the Startup Mechanisms'
 # section_title = "quizzes"
 
-part_title = '234. Deep Dive into Boot and Service Management with systemd'
+part_title = '236. Process Grouping & Control: Efficient Resource Management with cgroups'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
