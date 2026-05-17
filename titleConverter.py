@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = 'Section 20: The System Boot Process & Systemd - Understand the Startup Mechanisms'
+section_title = 'Section 21: Volumes, Partitions & Mounts - Integrate and Manage Filesystems in Linux'
 # section_title = "quizzes"
 
-part_title = '246. Journald and journalctl: Effective System Logging and Analysis'
+part_title = '247. Intro'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
