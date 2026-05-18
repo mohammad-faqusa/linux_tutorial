@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 21: Volumes, Partitions & Mounts - Integrate and Manage Filesystems in Linux'
 # section_title = "quizzes"
 
-part_title = '250. Adding a Virtual Hard Drive [VirtualBox]'
+part_title = '251. File Systems Overview and Creating a first Partition'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
