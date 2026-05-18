@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 21: Volumes, Partitions & Mounts - Integrate and Manage Filesystems in Linux'
 # section_title = "quizzes"
 
-part_title = '248. Managing Storage with Partition Tables: MBR vs GPT'
+part_title = '249. Understanding Storage Units: Differentiating Kibibytes, Mebibytes and more'
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
