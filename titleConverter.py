@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 21: Volumes, Partitions & Mounts - Integrate and Manage Filesystems in Linux'
 # section_title = "quizzes"
 
-part_title = '255. Partition Mounting Options (ext4): `ro`, `rw`, `noexec`, `nosuid` and `noatime`'
+part_title = "255. Partition Mounting Options (ext4): \`ro`, \`rw\`, \`noexec\`, \`nosuid\` and \`noatime\`"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
