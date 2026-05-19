@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 21: Volumes, Partitions & Mounts - Integrate and Manage Filesystems in Linux'
 # section_title = "quizzes"
 
-part_title = "259. Extra lecture (optional): Securing FTP Server Mounts with .netrc Files"
+part_title = "260. Extra lecture (optional): Automatically Mounting FTP Servers through /etc/fstab"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
