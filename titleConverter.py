@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 22: Logical Volume Manager (LVM) - Handle Storage Dynamically'
 # section_title = "quizzes"
 
-part_title = "275. Expanding Volume Groups & Safely Removing Physical Volumes in LVM"
+part_title = "276. Resizing Logical Volumes with LVM"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
