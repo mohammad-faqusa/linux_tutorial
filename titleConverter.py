@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 24: Extra chapter (optional): Cron Jobs - Automate and Schedule Tasks'
 # section_title = "quizzes"
 
-part_title = "290. Managing Cron Output: Email Notifications & MAILTO Configuration [Ubuntu]"
+part_title = "291. Managing Cron Output: Email Notification & `sendmail` Integration [CentOS]"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
