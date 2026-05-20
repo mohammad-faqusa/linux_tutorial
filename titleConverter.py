@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 22: Logical Volume Manager (LVM) - Handle Storage Dynamically'
 # section_title = "quizzes"
 
-part_title = "278. CentOS Boot Process with LVM Integration"
+part_title = "279. Advanced LVM Features: RAID, Thin Volumes, and Snapshot"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
