@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 24: Extra chapter (optional): Cron Jobs - Automate and Schedule Tasks'
 # section_title = "quizzes"
 
-part_title = "293. The /etc/crontab File: Defining System-Wide Tasks"
+part_title = "294. Managing Tasks with anacron: Flexible Scheduling [Ubuntu]"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
