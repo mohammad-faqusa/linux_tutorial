@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = 'Section 24: Extra chapter (optional): Cron Jobs - Automate and Schedule Tasks'
+section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
 # section_title = "quizzes"
 
-part_title = "296. Best Practices for Cron Jobs: Smart Scheduling, Security and Maintenance"
+part_title = "297. Intro"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
