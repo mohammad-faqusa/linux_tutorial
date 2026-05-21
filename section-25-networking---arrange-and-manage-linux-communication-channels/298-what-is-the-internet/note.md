@@ -482,23 +482,3 @@ tools for observing packet movement
 through the network.
 
 ---
-
-# excellent conceptual progress
-
-This chapter is VERY important because:
-
-```text id="internet035"
-networking is the foundation of modern backend systems
-```
-
-Your future work:
-
-* APIs
-* Docker
-* Kubernetes
-* cloud infrastructure
-* MQTT
-* WebSockets
-* AWS
-
-all rely heavily on these exact networking concepts.
