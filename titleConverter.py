@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
 # section_title = "quizzes"
 
-part_title = "306. OSI Layer 3/7: The Network Layer"
+part_title = "307. How Subnets enhance Network Efficiency"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
