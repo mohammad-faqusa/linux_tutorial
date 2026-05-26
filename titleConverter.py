@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
 # section_title = "quizzes"
 
-part_title = "312. Dynamic Host Configuration Protocol (DHCP): Managing IP Addresses on Networks"
+part_title = "314. Inspecting DHCP Logs with \`NetworkManager\`: Troubleshooting IP Address Issues"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
