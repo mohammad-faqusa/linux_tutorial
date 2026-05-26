@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
 # section_title = "quizzes"
 
-part_title = "320. Essential TCP & UDP Ports"
+part_title = "321. The TCP Handshake Process: Establishing Reliable Network Connections"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
