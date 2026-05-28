@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
 # section_title = "quizzes"
 
-part_title = "329. The \`host\` command & DNS Records Types: A, AAAA, CNAME, MX and NS"
+part_title = "330. Extra lecture (optional): Manual DNS Resolution with the \`dig\` command"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
