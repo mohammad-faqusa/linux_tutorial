@@ -1,4 +1,4 @@
-# What is `dig`?
+# What is \`dig\`?
 
 `dig` stands for:
 
