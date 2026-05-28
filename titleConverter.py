@@ -55,10 +55,10 @@ def create_code_exercise(section_title, part_title):
     # print(part_directory_path)
     create_directory(part_directory_path)
 
-section_title = 'Section 25: Networking - Arrange and Manage Linux Communication Channels'
+section_title = 'Section 26: SSH - Securely Connect to Remote Servers'
 # section_title = "quizzes"
 
-part_title = "335. IPv6 Overview: Advantages, Enhanced Security and Dual-Stack Transition"
+part_title = "336. Intro"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
