@@ -58,7 +58,7 @@ def create_code_exercise(section_title, part_title):
 section_title = 'Section 26: SSH - Securely Connect to Remote Servers'
 # section_title = "quizzes"
 
-part_title = "348. Fingerprints"
+part_title = "349. File transfers with SFTP"
 print(f"export PART_TITLE='{part_title}'")
 
 prepare_resources(section_title, part_title)
